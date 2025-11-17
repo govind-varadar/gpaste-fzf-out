@@ -242,7 +242,6 @@ int main(int argc, char *argv[])
 			return -ENOENT;
 		}
 	}
-	_FPRINTF_ENDL(stdout, ":::Using file: %s", filename);
 
 	return print_xml_history(filename);
 }
